@@ -4,6 +4,8 @@ A small project to run and configure a jenkins in a docker container with hopefu
 ## Usage
 Usage should be as easy as getting this repo and running `./start.sh`. You should be able to connect to port 8080 now to see the Jenkins UI. You can configurate the Server however you like it and then make a backup of `config` and/or `mvn` as a starting point for future projects.
 
+`start.sh` also runs `docker ps` which will show you if the server is up. You're good to go if you see `Up Less than a second` under `STATUS`.
+
 ## Maven
 You can store all your dependencies for maven in the `mvn/repository` directory before starting. All other dependencies downloaded during jobs will be stored there too, so you can uninstall everything without losing your data.
 
