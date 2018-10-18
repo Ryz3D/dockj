@@ -1,0 +1,53 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <fullName>Admin</fullName>
+  <description></description>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <apiToken>{AQAAABAAAAAwe7nteeM2wNQuC3nWkshKl7jwQKcp5Ad9NcrUAkUURJyvCpoTrm4LYe94o7G0Btjlgm6zaKG7aUDOstUigzKNWw==}</apiToken>
+      <tokenStore>
+        <tokenList>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>ad4e0f0d-4202-4c0d-b47e-e688c1450df1</uuid>
+            <name>Legacy Token</name>
+            <creationDate>2018-10-17 09:16:34.941 UTC</creationDate>
+            <value>
+              <version>10</version>
+              <hash>ccae0a54072afbdfd42e914aaa3c93135250d3606ba023039d3bd8ed5e982ae6</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+        </tokenList>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1539763052899</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+    <hudson.model.MyViewsProperty>
+      <primaryViewName></primaryViewName>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$Ai69QPm/KIuhwqejK2oP.uYgRmcgAdItWZIT5k8eg4X20gpb9TFya</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+      <authorizedKeys></authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+  </properties>
+</user>
